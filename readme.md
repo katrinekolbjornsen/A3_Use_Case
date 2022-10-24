@@ -1,17 +1,17 @@
 # A3_Use_Case
 
 ## 3A: Analyse use case
+
 ### Goal: Goal of the tool / workflow in one sentence. i.e. to support the user to calculate the total total cost of the project.
 This use case extracts the volume of concrete in IFC-models, which can be used to determine i.e. cost, carbon footprint and the amount demanded from the manufacturer. 
 
 
 ### Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
-
-
+The IFC model is being analysed using blender bim (or another compatable software) to extract the necessary information and geometry which is further used to calculate the totale volume of concrete. 
 
 
 ## 3B: Propose a (design for a) tool / workflow
-### Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report. description of the process of your tool / workflow.
+### Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report. Description of the process of your tool / workflow.
 
 
 
