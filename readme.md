@@ -70,12 +70,12 @@ The possibilies are endless.
 
 
 ### Describe the business value (How does it create value for your business / employer)
-The scipt makes value by saving time and making the process of extrating information from the building easy and quick.
+The script makes value by saving time and making the process of extrating information from the building easy and quick.
 It also does not require a large expertise within modelling and computering. 
 
 
 ### Describe the societal value (How does it make the world better). N.B. If it doesn't do either of these things (ideally it should do both - don't do it!!)
-Since it is easy to extract the total volume of concrete in the building, this can be used in the future as a measurement of the ratio of concrete used in a structure. E.g. If the ratio is set to be no more than 40% due to carbon footprint, the scipt could easily be used to measure if the building is within the limit. 
+Since it is easy to extract the total volume of concrete in the building, this can be used in the future as a measurement of the ratio of concrete used in a structure. E.g. If the ratio is set to be no more than 40% due to carbon footprint, the script could easily be used to measure if the building is within the limit. 
 
 
 
