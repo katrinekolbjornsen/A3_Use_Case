@@ -24,14 +24,9 @@ The IFC model is being analysed using blender bim (or another compatable softwar
 
 
 
-
-
 ## 3C: Information exchange
 ### Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help. 
-
-Her kan vi skrive noe om at vi har tolket det som at vi skal fokusere på punktene som er relevant for vår usecase? Derrav, punktene som omhandler strukturelle elementer som kan være av betong. Det er disse vi ønsker informasjon om. Stortsett velges det LOD 300 DK, som inneholder 'Molio Level of information 4' og gir definert geometri. "LOD levels includes a predefined set of matching levels for LOR, LOG and LOI" (DiKon-BIM7AA_Molio_Construction_Element_Specifications). Det vil da si at ved definert LOD, defineres også LOR, LOG og LOI.
-
-Siden det stortsett er satt LOD 300 DK, setter jeg opp eksempel på de tre tilhørende under. 
+All the sections that are relevant for structural elements in concrete has been filled out in the Excel-sheet. Mainly LOD 300 DK, which contains "Molio Level of information 4" giving the defined geometry. "The LOD levels include a predefined set of matching levels for LOR, LOG and LOI" (DiKon-BIM7AA_Molio_Construction_Element_Specifications). Meaning that the LOR, LOG and LOI are defined along with the LOD. See example below:
 
 LOR 300: 'DEFINED'
 LOG 300: 'TYPE-LEVEL'
@@ -39,13 +34,15 @@ LOI 300: 'PROPERTIES FOR SERVICE' - Classification: Classification code, Type (-
 
 
 
-### IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange. Describe the data that you need to:
-#### Find in the IFC
+### IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange.
+#### Describe the data that you need to find in the IFC
+The data needed in the IFC is:
+- IFC geometry
+-- IFC materials
 
 
 
-
-#### Find in an external sources i.e. BR18. Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
+#### Describe the data that you need to find in an external sources i.e. BR18. Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
 
 
 
