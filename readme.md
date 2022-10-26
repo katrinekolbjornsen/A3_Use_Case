@@ -40,6 +40,15 @@ The data needed in the IFC is:
 - IFC geometry
 -- IFC materials
 
+<ul>
+  <li>IFC geometry
+    <ul>
+      <li>IFC material</li>
+      <li>Indented item</li>
+    </ul>
+  </li>
+  <li>Fourth item</li>
+</ul>
 
 
 #### Describe the data that you need to find in an external sources i.e. BR18. Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
