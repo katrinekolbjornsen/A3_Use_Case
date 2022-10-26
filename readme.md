@@ -1,9 +1,8 @@
 # A3_Use_Case
-
 ## 3A: Analyse use case
 
 ### Goal: Goal of the tool / workflow in one sentence. i.e. to support the user to calculate the total total cost of the project.
-This use case extracts the volume of concrete in IFC-models, which can be used to determine i.e. cost, carbon footprint and the amount demanded from the manufacturer. 
+This use case extracts the volume of concrete in IFC-models, which can be used to determine e.g. cost, carbon footprint and the amount demanded from the manufacturer. 
 
 
 ### Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
@@ -11,9 +10,17 @@ The IFC model is being analysed using blender bim (or another compatable softwar
 
 
 ## 3B: Propose a (design for a) tool / workflow
-### Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report. Description of the process of your tool / workflow.
-
-
+### Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report. 
+#### Description of the process of your tool / workflow.
+- The process begins with importing the IFC-model. 
+- The script searches through the model and finds the elements that are defined as structural elements.
+- If no structural element is found, the process starts over again and a new file is requested. 
+- Further, the elements defined with the material "concrete" are extracted along with their dimensions and geometry data. 
+- Among the concrete elements the script finds the beams, columns, slabs and walls. 
+- The concrete volume of each individual type is calculated and put into a list. 
+- The volumes of each type are summarized. 
+- A list then presents the volume for all the types. 
+- A complete volume for all the structural elements in the model is then created. 
 
 
 
